@@ -1,0 +1,12 @@
+{
+  "name": "pokemon_guessing_game",
+  "packageManager": "yarn@4.17.0",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hsabea-ctrl/pokemon_guessing_game.git",
+  "author": "Sabea Hassan <hsabae497@gmail.com>",
+  "license": "MIT"
+}
