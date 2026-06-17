@@ -8,14 +8,11 @@ const game_id= Buffer.from(String(id)).toString("base64");
 
 app.get("/"
 , (req, res) => {
-res.send("GUESSING GAME!");
-res.send("Your game id is: $(game_id"); 
+//res.send("GUESSING GAME!");
+res.send(`Your game id is: ${game_id}`); 
 
 });
 app.listen(3000);
-
-
-
 
 
 
